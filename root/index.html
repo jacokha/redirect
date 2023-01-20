@@ -8,5 +8,15 @@
     <title>Document</title>
 </head>
 <body>
+<script>
+    switch (location.hash.replaceAll('#', '')) {
+        case 'google':
+            location.href = 'http://92.255.76.161/oauth/google'; break
+        case 'yandex':
+            location.href = 'http://92.255.76.161/oauth/yandex'; break
+        case 'mailru':
+            location.href = 'http://92.255.76.161/oauth/mailru'; break
+    }
+</script>
 </body>
 </html>
